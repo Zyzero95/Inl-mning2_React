@@ -1,0 +1,11 @@
+.desktopNavigator{
+    background-color: tomato;
+    display: grid;
+    grid-template: repeat(20, 1fr);
+}
+
+.homeButton, .dataButton{
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
+}
